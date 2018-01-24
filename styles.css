@@ -5,8 +5,26 @@ body{
 h1{
     text-align: center;
     font-size: 55px;
+    font-style: bold;
+    color: red;
+    font-family: 'Lobster', cursive;
 }
 
+@media screen and (max-width: 768px){
+  h1{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    }
+}
+
+h2{
+  font-family: 'Lobster', cursive;
+}
+
+p{
+  font-family: 'Lobster', cursive;
+}
 /* Macete para alinhar uma imagem no centro */
 .banner{
     width: 50%;
